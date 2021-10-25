@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:guo897654050/dom-diff.git",
+  "author": "guoxiaoyang395 <guoxiaoyang395@hellobike.com>",
+  "license": "MIT"
 }

@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-import { createElement, render, renderDom } from './element'
-import diff from './diff'
-import patch from './patch'
+import { createElement, render, renderDom } from './utils/element'
+import diff from './utils/diff'
+import patch from './utils/patch'
 
 const virtualDom = createElement('ul', { class: 'list' }, [
   createElement('li', { class: 'item' }, ['周杰伦']),
